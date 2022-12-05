@@ -1,0 +1,101 @@
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.wrapper .inputData {
+  margin-left: 50px;
+}
+
+.nonVision {
+  display: none;
+  margin-left: 0;
+}
+
+.color {
+  margin: 30px auto 0 auto;
+  width: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.color input {
+  width: 100%;
+}
+
+body {
+  padding-top: 20px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+form input {
+  outline: none;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  border-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+form input::-webkit-input-placeholder {
+  text-align: center;
+}
+form input::-moz-placeholder {
+  text-align: center;
+}
+form input:-ms-input-placeholder {
+  text-align: center;
+}
+form input::-ms-input-placeholder {
+  text-align: center;
+}
+form input::placeholder {
+  text-align: center;
+}
+form button {
+  width: 300px;
+}
+
+.error {
+  border-color: red;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 14px;
+}
+h3 span {
+  font-weight: normal;
+}
+
+table {
+  margin: 20px;
+}
+table td {
+  height: 60px;
+  width: 70px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
